@@ -7,5 +7,6 @@ int main (int argc, char *argv[])
   else {
     std::string greetee = argv[1];
     std::cout << "Hello " << greetee << std::endl;
+    std::cout << "Hello " << greetee << std::endl;
     }
 }
