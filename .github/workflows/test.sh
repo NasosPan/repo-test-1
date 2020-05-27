@@ -1,4 +1,4 @@
 #!/bin/sh
 cd build
-./demo nasos || exit 1
+./demo nasos
 exit 0
