@@ -15,3 +15,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: configure_and_make
       run: mkdir build && cd build && cmake .. && make
+    - name: test
+      run: cd build && ./demo World
